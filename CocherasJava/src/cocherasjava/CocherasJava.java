@@ -21,7 +21,6 @@ public class CocherasJava {
     public static int monto;
     public static String tipoVehiculo, patente, fecha, hora;
 
-    // ----- INICIO -> Integrante del Grupo que escbrio el CODIGO : JESICA VIOLA
     // Metodo Main para ejecutar el programa
     public static void main(String[] args) {
 
@@ -199,12 +198,7 @@ public class CocherasJava {
             }
         }
     }
-    // -- FIN -> Integrante del Grupo que escbrio el CODIGO : JESICA VIOLA
-    //
-    //
 
-    // ----- INICIO -> Integrante del Grupo que escbrio el CODIGO : SEBASTIAN
-    // VERGUECIO
     // Metodo para ingresar vehiculos en español
     public static void ingresoVehiculoEsp(int cocheras, String[][] ArrayCocheras) {
         // Iniciar variable booleana para controlar el ingreso de vehiculos
@@ -319,12 +313,7 @@ public class CocherasJava {
         menuEnglish(cocheras, ArrayCocheras);
 
     }
-    // -- FIN -> Integrante del Grupo que escbrio el CODIGO : SEBASTIAN VERGUECIO
-    //
-    //
 
-    // ----- INICIO -> Integrante del Grupo que escbrio el CODIGO : LEILA BRITEZ
-    // NEIRA
     // metodo Solicita cantidad de cocheras disponibles en español
     public static int cantidadCocherasEsp() {
 
@@ -344,11 +333,7 @@ public class CocherasJava {
 
         return cocheras;
     }
-    // -- FIN -> Integrante del Grupo que escbrio el CODIGO : LEILA BRITEZ NEIRA
-    //
-    //
 
-    // ----- INICIO -> Integrante del Grupo que escbrio el CODIGO : LEONARDO SOLAN
     // metodo para mostrar la cantidad de cocheras disponibles en Español
     public static void mostrarCocherasDisponiblesEsp(int cocheras, String[][] ArrayCocheras) {
         // imprimir la matriz de cocheras
@@ -403,11 +388,7 @@ public class CocherasJava {
 
         menuEnglish(cocheras, ArrayCocheras);
     }
-    // -- FIN -> Integrante del Grupo que escbrio el CODIGO : LEONARDO SOLAN
-    //
-    //
 
-    // INICIO -> Integrante del Grupo que escbrio el CODIGO : SAMUEL LUCAS LIMACHI
     // metodo para mostrar un mensaje de opcion invalida en español
     public static void opcionInvalida() {
 
@@ -458,11 +439,7 @@ public class CocherasJava {
         // finalizar el programa
         System.exit(0);
     }
-    // -- FIN -> Integrante del Grupo que escbrio el CODIGO : SAMUEL LUCAS LIMACHI
-    //
-    //
 
-    // ----- INICIO -> Integrante del Grupo que escbrio el CODIGO : FRANCO MESAS
     // metodo para buscar un vehiculo por patente en español
     public static void buscarVehiculoEsp(int cocheras, String[][] ArrayCocheras) {
         // mostrar mensaje de busqueda de vehiculo y ingresar patente a buscar
@@ -582,12 +559,7 @@ public class CocherasJava {
 
         menuEnglish(cocheras, ArrayCocheras);
     }
-    // -- FIN -> Integrante del Grupo que escbrio el CODIGO : FRANCO MESAS
-    //
-    //
 
-    // ----- INICIO -> Integrante del Grupo que escbrio el CODIGO : GIMENEZ ERNESTO
-    // MATIAS
     // metodo para limpiar la pantalla independiente del sistema operativo
     public static void limpiarPantalla() {
 
@@ -613,8 +585,5 @@ public class CocherasJava {
         }
 
     }
-    // -- FIN -> Integrante del Grupo que escbrio el CODIGO : GIMENEZ ERNESTO MATIAS
-    //
-    //
 
 }
